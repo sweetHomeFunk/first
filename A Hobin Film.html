@@ -1,0 +1,217 @@
+<!DOCTYPE html><!--22061016 김민호-->
+<html lang="en" dir="ltr">
+<!-- #42161D;FFD295 #E9976F;
+선택자,
+  table
+  토글 이름 쓰는 버튼
+  ul li ol
+  &gt; &nbsp;
+  텍스트 그림자
+
+  혼자하니까 한 번 물어보고, 한 번 보면 되는 일을 삽질하네요
+ -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      *{box-sizing:border-box;
+          margin: 0px;padding: 0px;font-family:"Bookman Old Style";text-height:150%;
+              text-decoration-line: none;}
+
+
+
+
+      table, tr, th, td{border: double 2px black; border-collapse: inherit;}
+      ul li{ list-style-type: none; float: left; outline:0px Groove gray; margin-left:0px; padding: center;}
+
+      .motherBoxMenu3 {width: 100%; pointer-events: none;}
+      .motherBoxMenu3 li{
+        background-color:#1E202C;
+        display:block;
+        width: 300px;
+        height: 60px;
+        font-weight:bold;
+        margin-left:10px;
+        padding-top: 18px;
+        padding-left: 10px;
+      }
+
+
+      .motherBoxMenu3 li a{
+        font-size:20px;
+        color: #7390B2;
+        display:block;
+        float:center;
+        text-align: center;
+        pointer-events: auto;
+        }
+
+
+
+        .motherBoxMenu4 li{
+          display:block;
+          width: 300px;
+          height: 60px;
+          font-weight:bold;
+          margin-left:10px;
+          padding-top: 18px;
+          padding-left: 10px;} /*하단 선택 바*/
+
+
+        .motherBoxMenu4 li a{
+          font-size:20px;
+          color: #7390B2;
+          display:block;
+          text-align: center;
+          }
+
+
+          .clickBlock{
+            pointer-events: none;
+          }
+          .clickEvent{
+            pointer-events: auto;
+          }
+          .text{
+            background-color:black;
+            color:#8DA5C9; clear:left;
+            display:block; max-width: 800px;"
+
+              pointer-events : none;
+              padding: 0px 15px 15px 15px;
+          }
+
+
+
+
+
+
+        #src1{float:left;width:20%;background-color:rgba(69,30,70,0.1)}
+        #src2{}
+        #src3{color:#E0EAE9}
+        #src3{}
+          #src4{}
+        #bgImage{
+          background-image: url('image/silk_4.jpg');
+          padding: 10px 50px 10px 50px;
+
+        }
+
+/*------------------------------반응형 웹--------------------------------------------------------------------------------- */
+      @media only screen and (max-width:1300px){
+        .motherBoxMenu3 .motherBoxMenu{width: 100%;
+        }
+
+        .motherBoxMenu3 li {width:100%;
+        margin-left:0px;
+        margin-top: 8px;
+
+        }
+        #src2{
+          width:100%; margin: 0px 0px 0px 0px;
+        }
+        #src4{width:30%;float: left}
+
+      }
+/*------------------------------반응형 웹--------------------------------------------------------------------------------- */
+      </style>
+  </head>
+
+<!-- body   시작 ------------------------------------------------------------------------------------------------------------->
+  <body id="bgImage">
+    <div style="background-color:#2C2C2C;
+    text-align:center;
+    padding:30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size:50px;
+    font-weight:bold;
+    color:#8DA5C9; display:block">
+    Made by A. Hobin. Film</div><!--타이틀 -->
+
+
+
+
+    <div >
+      <ul>
+        <li>
+          <video controls  src="a_hobin_film/hobin_video_1.mp4" style="max-width: 800px; height: auto;display:inline-block; " id="src2">
+        </video>
+      </li>
+      </ul>
+
+
+      <ul class="motherBoxMenu3" >
+              <li><a href="A Hobin Film.html">A. Hobin. Film </li>
+              <li><a href="index.html"><span id="src3">&lt; 032 Funk &gt;</span> Available Now </li>
+              <li><a href="sweetHome.html">스위트홈 OST 나란히</li>
+                <h2 class="text">비와이의 뮤직비디오를 만든 곳</h2>
+                <p class="text">
+                   개인 혹은 그룹으로 활동하는 A.Hobin.File 은 비와이의 영상을 촬영해왔다. 이들은 김필, 백예림, 마마무, Zion.T 그리고 헤이즈의 MV를 제작하기도 했다.
+
+                   <br>&nbsp;<br>&nbsp;</p>
+                   <input type="text" class="clickEvent">
+                   <span color:white; style="background-color:#2C2C2C">
+                     2021 10 21  <input type="checkbox"; color="white"; class="clickEvent";>
+                    <input type="file" class="clickEvent";>
+                    <input  class="clickEvent"type="radio" name="just" value="html" checked>1
+                    <input  class="clickEvent" type="radio" name="just" value="html">2
+                    <input  class="clickEvent" type="radio" name="just" value="html">3
+                  </span>
+
+
+
+      </ul>
+
+      <!-- <ul class="motherBoxMenu4" >
+              <li><img src="image/style="max-width: 300px; height: auto;display:block; display:inline-block " id="src4"></li>
+              <li><img src="image/032Funk_2_1400_1400.jpg" style="max-width: 300px; height: auto;display:block; display:inline-block " id="src4"></li>
+              <li><img src="image/sweetHome_500_500.jpg" style="max-width: 300px; height: auto;display:block; display:inline-block " id="src4"></li>
+      </ul> -->
+    </div>
+
+
+    <!-- <div  class="motherBoxMenu4Image"style="display:inline-block">
+      <ul>
+        <li><img src="image/032Funk_1_1400_1400.jpg" width="10%"></li>
+      </ul>
+    </div> -->
+
+
+</ul>
+    <!-- source, video, image -->
+
+
+
+
+  </body>
+  <footer>
+    <div class="clickBlock"style="position: absolute; bottom: 0px;left: 0;right: 0; padding-left: 50px; padding-right: 50px;
+    background-color:#2C2C2C; text-align:left; color: #191A19; font-size:12px;">
+    https://music.bugs.co.kr/album/20369058 <br>
+    https://www.youtube.com/watch?v=9fqFprUfMHY <br>
+    crush-with you: https://www.youtube.com/watch?v=z560Yz_rTjA<br>
+    김필-변명:https://www.youtube.com/watch?v=44CNYQR9PR0&list=RDMM&start_radio=1&rv=N0t-8KdlYFA
+</div>
+
+  </footer>
+
+          <!-- <img src="a_hobin_firm/GOTTASADE_2_face_800_800.jpg" width="400px"> -->
+  <!--  이렇게 남겨놓는게 추해보이지만, 삽질 했던 ㅐㄴ용이에요
+  그래도 나름 뿌듯하지 앙ㄴㄶ나요
+  에러가 안뜨니까 뭐가 잘못된 건지도 모르겠네요
+
+  iframe{ float:left; width:60%; frameborder:0;}
+  text-decoration: none;text-align: center;
+  color: #42161D;
+  .funkBillboard, .source, .
+        #box1{float:left;}
+        #box2{float:left;}
+        #box3{float:right;}
+        #src1{float:top;width:20%;height:30%;}
+        #scr2{float:top;width:60%;height:30%;}
+        #src3{float:top;width:20%;height:30%;}
+
+      -->
+
+</html>
